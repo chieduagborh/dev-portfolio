@@ -8,10 +8,10 @@ interface HeaderProps {
 }
 
 const DEFAULT_LINKS: NavLink[] = [
-  { href: "#home", label: "Home" },
-  { href: "#skills", label: "Skills" },
-  { href: "#work", label: "Work" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#home", label: "Home" },
+  { href: "/#skills", label: "Skills" },
+  { href: "/#work", label: "Work" },
+  { href: "/#contact", label: "Contact" },
   { href: "/privacy", label: "Privacy" },
 ];
 

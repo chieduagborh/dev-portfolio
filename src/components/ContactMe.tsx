@@ -6,7 +6,7 @@ export default function ContactMe() {
 
   return (
     <Section id="contact">
-      <div className="grid gap-8 items-start px-8">
+      <div className="grid gap-8 items-start">
         <div className="flex flex-col items-center mb-10">
           <h2 className="text-5xl">Contact</h2>
 

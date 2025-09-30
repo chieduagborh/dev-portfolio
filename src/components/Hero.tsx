@@ -13,7 +13,7 @@ export default function Hero() {
                 aria-hidden
               >
                 <img
-                  src="/profile.jpg" /* put a file in /public or swap to your URL */
+                  src="/assets/profile.png"
                   alt=""
                   className="h-full w-full object-cover"
                 />
@@ -93,30 +93,37 @@ export default function Hero() {
           <img className="w-full" src={"/assets/highlights-bg.png"} />
 
           <div className="highlights absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-y-10">
-            <div className="flex gap-x-6 text-secondary-color">
-              <div className="text-5xl">4</div>
+            <div className="flex gap-x-6 text-secondary-color items-center">
+              <span
+                aria-label="Online"
+                role="status"
+                className="relative inline-flex"
+              >
+                <span className="absolute inline-flex h-6 w-6 rounded-full bg-emerald-400 opacity-75 animate-ping" />
+                <span className="relative inline-flex h-6 w-6 rounded-full bg-emerald-500 ring-2 ring-white" />
+              </span>
               <p className="text-off-white-color">
                 Open to
                 <br />
-                Opportunities
+                Work
               </p>
             </div>
 
             <div className="flex gap-x-6 text-secondary-color">
-              <div className="text-5xl">6</div>
+              <div className="text-4xl">8+</div>
               <p className="text-off-white-color">
-                LinkedIn
+                CMS
                 <br />
-                Recommendations
+                Builds
               </p>
             </div>
 
             <div className="flex gap-x-6 text-secondary-color">
-              <div className="text-5xl">6</div>
+              <div className="text-4xl">6+</div>
               <p className="text-off-white-color">
-                Github
+                React
                 <br />
-                Projects
+                Apps
               </p>
             </div>
           </div>
